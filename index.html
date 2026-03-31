@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dowsxcyrix - Portfolio</title>
+    <meta name="description" content="Portfolio of dowsxcyrix - IT Student & Infrastructure Explorer">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+<body>
+    <div id="particles-js"></div>
+    
+    <nav class="navbar">
+        <div class="logo">nix</div>
+        <div class="hamburger"><i class="ph ph-list"></i></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#project">Project</a></li>
+            <li class="mobile-contact"><a href="#contact" class="btn btn-outline nav-btn">Contact Me</a></li>
+        </ul>
+        <a href="#contact" class="btn btn-outline nav-btn desktop-contact">Contact Me</a>
+    </nav>
+
+    <main>
+        <!-- Home / Hero Section -->
+        <section id="home" class="hero section-spacing">
+            <div class="hero-content">
+                <span class="greeting">Hello Buds</span>
+                <h1 class="hero-title">I am <span class="highlight">dowsxcyrix</span></h1>
+                <p class="subtitle">IT STUDENT & INFRASTRUCTURE EXPLORER</p>
+                <p class="description">
+                    I'm an IT student who loves learning about Home Servers and Cyber Defense.
+                    I build infrastructure from scratch using Proxmox and CasaOS. 
+                    I also integrate deep monitoring using Grafana and Zabbix. Currently, 
+                    I am expanding my skills as a Pentester and exploring SOC (Security Operations Center) 
+                    using Wazuh, along with a growing curiosity in integrating AI into my homelab environments.
+                </p>
+                <div class="hero-actions">
+                    <a href="#" class="btn btn-primary">Download CV</a>
+                    <a href="#about" class="btn btn-outline">More</a>
+                    
+                    <div class="social-links">
+                        <span class="social-text">Find Me On</span>
+                        <a href="https://github.com/dowsxc" target="_blank"><i class="ph-fill ph-github-logo"></i></a>
+                        <a href="#"><i class="ph-fill ph-instagram-logo"></i></a>
+                        <a href="#"><i class="ph-fill ph-whatsapp-logo"></i></a>
+                        <a href="https://www.linkedin.com/in/sangga-bekti-wijaya-019bb42a5/" target="_blank"><i class="ph-fill ph-linkedin-logo"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="glass-orb-container">
+                    <div class="glass-panel">
+                        <div class="center-icon">
+                            <div class="pulse-ring"></div>
+                            <i class="ph ph-shield-check"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="about" class="services section-spacing text-center">
+            <h4 class="section-label">WHAT I DO</h4>
+            <h2 class="section-heading">Professional Security and<br>Infrastructure Solutions<br>Tailored to Your Needs</h2>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="ph ph-shield-chevron"></i>
+                    <h3>Pentester</h3>
+                </div>
+                <div class="service-card active-card">
+                    <i class="ph ph-eye"></i>
+                    <h3>SOC</h3>
+                </div>
+                <div class="service-card">
+                    <i class="ph ph-laptop"></i>
+                    <h3>Web Design</h3>
+                </div>
+            </div>
+            <div class="slider-dots">
+                <span class="dot"></span>
+                <span class="dot active-dot"></span>
+                <span class="dot"></span>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats section-spacing">
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <h2>05</h2>
+                    <p>CLIENTS INSIDE</p>
+                </div>
+                <div class="stat-box origin-cyan">
+                    <h2>03</h2>
+                    <p>COMPLETED PROJECT</p>
+                </div>
+                <div class="stat-box">
+                    <h2>4.5</h2>
+                    <p>USER RATING</p>
+                </div>
+                <div class="stat-box">
+                    <h2>06</h2>
+                    <p>MONTHS OF EXPERIENCE</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tools and Skills Section -->
+        <section class="tools-skills section-spacing text-center">
+            <h2 class="bg-text">SKILLS</h2>
+            <h3 class="overlay-heading">Tools and Skills</h3>
+            
+            <div class="tools-grid">
+                <div class="tool-card ps"><span>Ps</span></div>
+                <div class="tool-card wazuh"><span>wazuh.</span></div>
+                <div class="tool-card zabbix"><span>ZABBIX</span></div>
+                <div class="tool-card ubuntu">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Logo-ubuntu_cof-orange-hex.svg" alt="Ubuntu" width="40" height="40">
+                </div>
+                <div class="tool-card kali">
+                    <!-- Kali logo substitute with a clean modern white icon -->
+                    <svg viewBox="0 0 24 24" width="45" height="45" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" style="color: #6162ff;"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"></path></svg>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="project" class="projects section-spacing text-center">
+            <h2 class="bg-text">MY PROJECT</h2>
+            <h3 class="overlay-heading">LATEST PROJECT</h3>
+
+            <div class="project-list">
+                <!-- Project 1 -->
+                <div class="project-row">
+                    <div class="project-visual casa-os">
+                        <div class="mock-card card-back"></div>
+                        <div class="mock-card card-front"><span class="status-dot"></span></div>
+                    </div>
+                    <div class="project-info">
+                        <h4><span class="highlight-green">CasaOS</span> Home Server</h4>
+                    </div>
+                    <div class="project-action">
+                        <a href="#" class="btn btn-outline-cyan">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-row">
+                    <div class="project-visual monitoring"></div>
+                    <div class="project-info">
+                        <h4>Monitoring (Grafana & Zabbix)</h4>
+                    </div>
+                    <div class="project-action">
+                        <a href="#" class="btn btn-outline-cyan">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-row">
+                    <div class="project-visual soc"></div>
+                    <div class="project-info">
+                        <h4>SOC / Defense (Wazuh)</h4>
+                    </div>
+                    <div class="project-action">
+                        <a href="#" class="btn btn-outline-cyan">View Details</a>
+                    </div>
+                </div>
+                
+                <!-- Project 4 -->
+                <div class="project-row">
+                    <div class="project-visual ai"></div>
+                    <div class="project-info">
+                        <h4>AI Exploration</h4>
+                    </div>
+                    <div class="project-action">
+                        <a href="#" class="btn btn-outline-cyan">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer CTA Section -->
+        <section class="footer-cta section-spacing">
+            <div class="cta-box">
+                <div class="cta-text">
+                    <h2>Have any project in mind?</h2>
+                    <p>I'm available for freelancing</p>
+                </div>
+                <div class="cta-buttons">
+                    <a href="#project" class="btn btn-outline-white">More Projects</a>
+                    <a href="mailto:contact@dowsxcyrix.com" class="btn btn-primary"><i class="ph ph-envelope-simple"></i> Email Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Hire Me Section -->
+        <section class="hire-me section-spacing text-center">
+            <h2 class="bg-text">WHY HIRE ME</h2>
+            <h3 class="overlay-heading">Why Hire Me</h3>
+            
+            <div class="hire-grid">
+                <div class="hire-item">
+                    <div class="hire-icon"><i class="ph ph-briefcase"></i></div>
+                    <h4>Workaholic</h4>
+                    <p>I'm a kind of person who can't just stand around and doing nothing. I have a tendency to do something productive.</p>
+                </div>
+                <div class="hire-item">
+                    <div class="hire-icon"><i class="ph ph-chats-circle"></i></div>
+                    <h4>Communicative</h4>
+                    <p>I have a broad understanding of verbal vocabulary. Therefore, I can convey a message well to the receiver.</p>
+                </div>
+                <div class="hire-item">
+                    <div class="hire-icon"><i class="ph ph-thumbs-up"></i></div>
+                    <h4>Cooperative</h4>
+                    <p>Behind the successful project, there's a great team. I can build a good cooperation and remain consistent with the goal.</p>
+                </div>
+                <div class="hire-item">
+                    <div class="hire-icon"><i class="ph ph-check-circle"></i></div>
+                    <h4>Perfectionist</h4>
+                    <p>I have a strong intuition. I have remained consistent with high quality standards to present a most worthy result.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Get In Touch -->
+        <section id="contact" class="contact section-spacing">
+            <img class="triangle-deco" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpolygon points='50,10 90,90 10,90' fill='none' stroke='%2300f0ff' stroke-width='4'/%3E%3C/svg%3E" alt="decoration" width="40" height="40">
+            <div class="contact-container">
+                <div class="contact-header">
+                    <h2>Get In Touch</h2>
+                    <p>For business inquiry connection or interview contact me below</p>
+                </div>
+                
+                <div class="contact-cards">
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="ph ph-envelope-simple"></i></div>
+                        <div class="contact-info">
+                            <span>EMAIL</span>
+                            <h4>iwakneko@gmail.com</h4>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="ph ph-linkedin-logo"></i></div>
+                        <div class="contact-info">
+                            <span>LINKEDIN</span>
+                            <h4><a href="https://www.linkedin.com/in/sangga-bekti-wijaya-019bb42a5/" target="_blank" style="color: inherit; text-decoration: none;">Sangga Bekti Wijaya</a></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer class="footer-bottom">
+             <p>© 2026 Infrastructure & Security Enthusiast</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
